@@ -27,9 +27,10 @@ ax.text(vec1[0]+max_range*0.05,vec1[1],vec1[2], 'Vector 1', color='b',fontsize=8
 ax.text(vec2[0]+max_range*0.05,vec2[1],vec2[2], 'Vector 2', color='r',fontsize=8)
 ax.text(cross[0]+max_range*0.05,cross[1],cross[2], 'Cross Product', color='black',fontsize=8)
 
-ax.set_xlabel('X') #labels axes
-ax.set_ylabel('Y')
-ax.set_zlabel('Z')
-ax.set_title('Section 11.4: Cross Products Visualization')
+ax.set_xlabel("X") #labels axes
+ax.set_ylabel("Y")
+ax.set_zlabel("Z")
+ax.set_title("Cross Products Visualization")
 
 plt.show()
+
